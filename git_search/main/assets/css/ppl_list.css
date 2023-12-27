@@ -1,0 +1,219 @@
+.listado-personas,
+.listado-personas * {
+  box-sizing: border-box;
+}
+.listado-personas {
+  background: #ffffff;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.cropped-1920-1080-935892-1 {
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-1 {
+  width: 1118px;
+  height: 82px;
+  position: absolute;
+  left: 401px;
+  top: 106px;
+}
+.rectangle-12 {
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 9px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.rectangle-6 {
+  background: #414141;
+  border-radius: 36px;
+  width: 1709px;
+  height: 672px;
+  position: absolute;
+  left: 119px;
+  top: 268px;
+}
+.rectangle-7 {
+  background: #d9d9d9;
+  border-radius: 17px;
+  width: 1592px;
+  height: 120px;
+  position: absolute;
+  left: 161px;
+  top: 334px;
+}
+.ellipse-1 {
+  background: #c37b7b;
+  border-radius: 50%;
+  width: 94px;
+  height: 94px;
+  position: absolute;
+  left: 190px;
+  top: 347px;
+}
+.el-pepe {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 328px;
+  top: 349px;
+  width: 145px;
+  height: 45px;
+}
+.colombia {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 328px;
+  top: 421px;
+  width: 73px;
+  height: 20px;
+}
+.el-loco-pepe-aquel-que-realiza-milagros {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 328px;
+  top: 394px;
+  width: 789px;
+  height: 27px;
+}
+.rectangle-8 {
+  background: #d9d9d9;
+  border-radius: 17px;
+  width: 1592px;
+  height: 120px;
+  position: absolute;
+  left: 161px;
+  top: 499px;
+}
+.ellipse-2 {
+  background: #9ea0ac;
+  border-radius: 50%;
+  width: 94px;
+  height: 94px;
+  position: absolute;
+  left: 190px;
+  top: 512px;
+}
+.r-osales {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 328px;
+  top: 514px;
+  width: 145px;
+  height: 45px;
+}
+.chile {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 328px;
+  top: 586px;
+  width: 73px;
+  height: 20px;
+}
+.el-no-tan-dios {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 328px;
+  top: 559px;
+  width: 789px;
+  height: 27px;
+}
+.rectangle-9 {
+  background: #d9d9d9;
+  border-radius: 17px;
+  width: 1592px;
+  height: 120px;
+  position: absolute;
+  left: 161px;
+  top: 690px;
+}
+.ellipse-3 {
+  background: #95ce9f;
+  border-radius: 50%;
+  width: 94px;
+  height: 94px;
+  position: absolute;
+  left: 190px;
+  top: 703px;
+}
+.ete-sech {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 328px;
+  top: 705px;
+  width: 218px;
+  height: 37px;
+}
+.chile2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 328px;
+  top: 777px;
+  width: 73px;
+  height: 20px;
+}
+.el-casi-dios {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 328px;
+  top: 750px;
+  width: 789px;
+  height: 27px;
+}
+.dios {
+  color: #090808;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 420px;
+  top: 119px;
+  width: 1084px;
+  height: 56px;
+}

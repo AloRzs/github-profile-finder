@@ -1,0 +1,43 @@
+{% extends "base/index.html" %}
+
+{% block content %}
+<div class="container caja_texto">
+    <form action="" method="post">
+        {% csrf_token %}
+        <div class="row">
+            <div class="col">
+                <input type="search" name="busca_individuos" id="busca_individuos" placeholder="Buscar...">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button id="searchButton" type="submit">Search</button>
+            </div>
+        </div>
+    </form> 
+        {% if data %}
+        {% for item in data.items %}
+        <div class="row">
+            <div class="col-1">
+                <img src="{{ item.avatar_url }}" alt="{{ item.login }}" style="border-radius: 7px;height: 50%;display: flex;align-items: center;justify-content: center;">
+            </div>
+            <div class="col">
+                <div id="user-container">
+                    <div>
+                        <h1>{{ item.login }}</h1>
+                        <h2><a href="{{ item.html_url }}">{{ item.html_url }}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        {% else %}
+            <p>No se encontraron resultados</p>
+        {% endif %}
+
+    <div id="user-container" style="display: none;"></div>
+</div>
+
+
+{% endblock %}
