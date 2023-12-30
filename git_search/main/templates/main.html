@@ -18,25 +18,21 @@
     </form> 
         {% if data %}
         {% for item in data.items %}
-        <div class="row">
-            <div class="col-1">
-                <img src="{{ item.avatar_url }}" alt="{{ item.login }}" style="border-radius: 7px;height: 50%;display: flex;align-items: center;justify-content: center;">
+        <div class="row persona_container">
+            <div class="col-1 persona_ico">
+                <img src="{{ item.avatar_url }}" alt="{{ item.login }}" class="persona_ico">
             </div>
-            <div class="col">
-                <div id="user-container">
-                    <div>
-                        <h1>{{ item.login }}</h1>
-                        <h2><a href="{{ item.html_url }}">{{ item.html_url }}</a></h2>
-                    </div>
+            <div class="col persona_info">
+                <div>
+                    <p>{{ item.login }}</p>
+                    <p><a href="{{ item.html_url }}">{{ item.html_url }}</a></p>
                 </div>
             </div>
         </div>
         {% endfor %}
         {% else %}
-            <p>No se encontraron resultados</p>
+            <p style="display: flex;justify-content: center;align-items: center;">{{error}}</p>
         {% endif %}
-
-    <div id="user-container" style="display: none;"></div>
 </div>
 
 

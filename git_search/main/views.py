@@ -6,9 +6,7 @@ API_GITHUB_URL_SEARCH = 'https://api.github.com/search/'
 def main_view(request):
     if request.method == 'POST':
         consulta = request.POST.get('busca_individuos')
-        #necesito la consulta para hacer la peticion
         url_peticion = API_GITHUB_URL_SEARCH + 'users?q=' + consulta
-        #necesito hacer el fetch de lo que consiga de la url anterior puesta
         response = requests.get(url_peticion)
         if response.status_code == 200:
             data = response.json()

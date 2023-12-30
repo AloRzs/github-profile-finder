@@ -13,7 +13,6 @@ body{
     background-image: url('/assets/img/fondo.jpg');
     background-repeat: no-repeat;
     font-family: 'JetBrains Mono', monospace;
-    /* necesito agregarle blur a la imagen de fondo unicamente */
     background-color: rgba(0, 0, 0, 70%);
     background-blend-mode: darken;
 
@@ -21,7 +20,7 @@ body{
 
 p{
     font-family: 'JetBrains Mono', monospace;
-    color: beige;
+    color: rgb(55, 55, 55);
 }
 
 .caja_texto{
@@ -77,4 +76,30 @@ input[type=search]:focus {
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 15px;
+}
+
+
+
+.persona_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 7rem;
+    margin-bottom: 15px;
+}
+
+.persona_ico{
+    height: 100%;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.persona_info{
+    height: 100%;
+    color: rgb(65, 65, 65) !important;
 }
