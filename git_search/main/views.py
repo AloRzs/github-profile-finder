@@ -3,6 +3,14 @@ from django.shortcuts import render
 import requests
 API_GITHUB_URL_SEARCH = 'https://api.github.com/search/'
 # Create your views here.
+
+/*
+Para conseguir los seguidores repositorios y demás
+https://api.github.com/users/{user}/repos (quiza contabilizar la cantidad de repositorios a mostrar)
+https://api.github.com/users/{user}/followers (para contabilizar los seguidores)
+
+
+*/
 def main_view(request):
     if request.method == 'POST':
         consulta = request.POST.get('busca_individuos')

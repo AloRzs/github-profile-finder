@@ -23,11 +23,12 @@
                 <img src="{{ item.avatar_url }}" alt="{{ item.login }}" class="persona_ico">
             </div>
             <div class="col persona_info">
-                <div>
-                    <p>{{ item.login }}</p>
-                    <p><a href="{{ item.html_url }}">{{ item.html_url }}</a></p>
-                </div>
+				<p>{{ item.login }}</p>
+				<p><a href="{{ item.html_url }}">{{ item.html_url }}</a></p>
             </div>
+			<div class="col">
+				<button class="persona_btn">Detalle Persona</button>
+			</div>
         </div>
         {% endfor %}
         {% else %}
